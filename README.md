@@ -1,7 +1,8 @@
 # Lucid Express - Your Lucid Dreaming Companion  
 
 ## Project Overview  
-Lucid Express is an Android application designed to assist users in achieving **lucid dreaming** through structured techniques, a **personal dream journal**, a **REM sleep alarm**, and a **calm music player** for relaxation.
+Lucid Express is an Android applicat
+ion designed to assist users in achieving **lucid dreaming** through structured techniques, a **personal dream journal**, a **REM sleep alarm**, and a **calm music player** for relaxation.
 
 ## Technical Information  
 - **Platform**: Android OS  
@@ -20,7 +21,11 @@ Lucid Express is an Android application designed to assist users in achieving **
 - **Calm Music Player**: Plays relaxing tracks for sleep enhancement and meditation.  
 - **Lucid Dreaming Tutorials**: Provides guidance on techniques like WBTB, MILD, FILD, and WILD.  
 - **Reality Check Methods**: Encourages awareness exercises to increase dream lucidity.  
+<img width="359" alt="Screenshot 2025-02-18 at 2 08 11 PM" src="https://github.com/user-attachments/assets/1709c7c0-0785-4564-8859-db7b9ac97e44" />
 
+<img width="724" alt="Screenshot 2025-02-18 at 2 08 34 PM" src="https://github.com/user-attachments/assets/e8cb5bc6-b3ef-48c6-a13a-1676f227433a" />
+
+<img width="359" alt="Screenshot 2025-02-18 at 2 08 11 PM" src="https://github.com/user-attachments/assets/1709c7c0-0785-4564-8859-db7b9ac97e44" />
 ## User Guide  
 
 ### Home Screen  
