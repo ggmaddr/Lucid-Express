@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_purple"
+        tools:context=".TutorialFragment">
+
+        <TextView
+            android:id="@+id/tutorial_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/tutorial"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tutorial_desc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="25dp"
+            android:text="Lucid dreaming is the ability to become aware of the fact that you are dreaming while in a dream. \n\nThis tutorial provides a basic overview of how to use this app in conjunction with the Wake-Back-To-Bed (WBTB) technique.  \n                          \n\n\n1.) Set your alarm to wake you up during REM sleep (After 4-6 hours of sleep, or 2 hours before you normally wake up).                          \n\n2.) After waking up, shut off the alarm and write down any dreams you had in the dream journal. Get out of bed and stay up for 5-15 minutes. Use the restroom, drink some water, if you need to, but don't wake yourself up too much. \n\nThis will reinforce your awareness and your memory while dreaming.                           \n\n3.) Go back to sleep. This time, keep the active intention to lucid dream in mind. This can be a mantra you say to yourself mentally, or you can focus on simply wanting to lucid dream. Keep this intention as you fall asleep.                           \n\n4.) Hopefully, your heightened awareness will force you to recognize that you are dreaming. You will suddenly notice a shift in your perception of the dream, and you will become fully conscious and in control of your actions and thoughts. \n\n5.) If you wake up before you have to have to get out of bed, or wake up after having become lucid, repeat this technique again.                           \n\n\nAdditionally, try to identify patterns in your dreams. There may be repeating signs that can help you realize that you are dreaming. \n\nWhile WBTB is the easiest method to lucid dream, other methods exist. \n\n"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tutorial_title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>`
+
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.JournalFragment"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" >
+        <action
+            android:id="@+id/action_journalFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_journalFragment_to_fileListFragment"
+            app:destination="@id/fileListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_alarmFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_journalFragment"
+            app:destination="@id/journalFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_alarmFragment"
+            app:destination="@id/alarmFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_tutorialFragment"
+            app:destination="@id/tutorialFragment" />
+    </fragment><action android:id="@+id/action_global_infoFragment" app:destination="@id/infoFragment"/>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.TutorialFragment"
+        android:label="fragment_tutorial"
+        tools:layout="@layout/fragment_tutorial" >
+        <action
+            android:id="@+id/action_tutorialFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fileListFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.FileListFragment"
+        android:label="FileListFragment"
+        tools:layout="@layout/fragment_file_list">
+        <action
+            android:id="@+id/action_fileListFragment_to_fileDetailsFragment"
+            app:destination="@id/fileDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fileDetailsFragment"
+        android:name="edu.sjsu.android.luciddreamingapp.FileDetailsFragment"
+        android:label="fragment_file_details"
+        tools:layout="@layout/fragment_file_details" />
+</navigation>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lucid Express</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">Info</string>
+    <string name="alarm_fragment">Alarm Fragment</string>
+    <string name="info_fragment">Made by Group 4:\nDaniel Chukhebov, Grady Ta, Kyaw Soe Han, Steven Pham</string>
+    <string name="journal_fragment">Journal Fragment</string>
+    <string name="alarm">Alarm</string>
+    <string name="journal">Journal</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="blackbird_chirping">Blackbird Chirping</string>
+    <string name="heavy_rain">Heavy Rain</string>
+    <string name="rain_thunder">Rain Thunder</string>
+    <string name="soft_piano">Soft Piano</string>
+    <string name="tutorial_btn">Tutorial</string>
+    <string name="calm_sound">Calm Sound</string>
+    <string name="lucid_express">Lucid Express</string>
+    <string name="lucid_logo_description">Lucid Logo</string>
+    <string name="enter_this_entry_s_title_here">Enter this entry\'s title here</string>
+    <string name="what_was_in_your_dream">What was in your dream?</string>
+    <string name="save_journal_entry">Save Journal Entry</string>
+    <string name="view_saved_entries">View Saved Entries</string>
+</resources>
